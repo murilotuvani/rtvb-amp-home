@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-call-tracking" src="https://cdn.ampproject.org/v0/amp-call-tracking-0.1.js"></script>
-    <title>Hello, AMPs</title>
-    <link rel="canonical" href="https://rtvb-h.appspot.com">
+    <script async custom-element="amp-facebook-comments" src="https://cdn.ampproject.org/v0/amp-facebook-comments-0.1.js"></script>
+    <title>Item XPTO</title>
+    <link rel="canonical" href="https://rtvb-h.appspot.com/item?codigo=XPTO">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "WebPage",
+        "@type": "Product",
 		"author": {"@type": "Person","name": "Murilo de Moraes Tuvani"},
         "publisher": {"@type": "Organization","name": "rtvb.com",
    			"logo": { "@type": "ImageObject", "url": "https://rtvb-h.appspot.com/logo.jpg","width": 128, "height": 128}},
@@ -30,14 +30,10 @@
   </head>
   <body>
   	
-    <h1>Welcome to the mobile web</h1>
-    <h3>Itu</h3>
-    <amp-call-tracking config="https://rtvb-h.appspot.com/json/telefone-itu.json">
-      <a href="tel:1140137777">(11)4013-7777</a>
-    </amp-call-tracking>
-    <h3>Salto</h3>
-    <amp-call-tracking config="https://rtvb-h.appspot.com/json/telefone-salto.json">
-      <a href="tel:1140137777">(11)4602-9999</a>
-    </amp-call-tracking>
-  </body>
+    <h1>Fale sobre o produto XPTO</h1>
+	<amp-facebook-comments width="486" height="657" layout="responsive"
+		data-numposts="5"
+		data-href="https://rtvb-h.appspot.com/item?codigo=XPTO">
+	</amp-facebook-comments>
+</body>
 </html>

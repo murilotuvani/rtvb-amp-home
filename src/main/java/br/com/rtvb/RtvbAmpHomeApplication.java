@@ -24,6 +24,14 @@ public class RtvbAmpHomeApplication {
 			modelAndView.setStatus(HttpStatus.OK);
 			return modelAndView;
 		}
+		
+		@RequestMapping(value = { "/item" }, method = RequestMethod.GET)
+		public ModelAndView item() {
+			ModelAndView modelAndView = new ModelAndView();
+			modelAndView.setViewName("item");
+			modelAndView.setStatus(HttpStatus.OK);
+			return modelAndView;
+		}
 	}
 
 }
