@@ -1,0 +1,6 @@
+runtime: java11
+# instance_class: F2
+service: default
+env_variables:
+  SPRING_PROFILES_ACTIVE: "cloud"
+entrypoint: java -noverify -jar amp-home-1.0.jar
